@@ -1,0 +1,8 @@
+<h2>your param is {{id}}</h2>
+<h2>your ids is {{ids}}</h2>
+<input type="text" [(ngModel)]="testXSSAttack">
+<button (click)="onClick();showMe=true" class="btn btn-dark">click me</button>
+<span [innerHTML]="testXSSAttack" *ngIf="showMe"></span>
+<br>
+<button (click)="testClick('iam the instance')">click me</button>
+<app-cart [hidden]="true"></app-cart>

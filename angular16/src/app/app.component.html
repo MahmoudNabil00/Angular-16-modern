@@ -1,0 +1,7 @@
+<!-- <h1>{{property}}</h1>
+<h1 style="color: red;">{{service.checkIfThisPropertyChangeEveryWhereInTheApp}}</h1> -->
+<app-header #header/>
+<div #issue>
+    <button routerLink="/routeTwo">Module 2 </button>
+</div>
+<router-outlet (activate)="catchWhichEmit($event)"/>

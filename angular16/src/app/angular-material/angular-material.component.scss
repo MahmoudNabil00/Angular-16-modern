@@ -1,0 +1,15 @@
+// .custom-datepicker{
+//     border: 1px solid #ccc;
+//     padding: 4px 8px;
+//     border-radius: 4px;
+// }
+form ::ng-deep.mat-mdc-text-field-wrapper{
+    background-color: white !important;
+    border: 1px solid ;
+}
+form ::ng-deep.mdc-line-ripple{
+    display: none;
+}
+// form ::ng-deep.mat-mdc-text-field-wrapper:focus{
+//     background-color: white !important;
+// }
